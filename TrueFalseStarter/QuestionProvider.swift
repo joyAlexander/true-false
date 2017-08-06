@@ -16,55 +16,61 @@ struct triviaQuestion {
     let option1: String
     let option2: String
     let option3: String
-    let option4: String
+    let option4: String?
     let correctAnswer: String
-    
 }
-
-
 
 // as per the instructions, generating a random number so that questions are asked randomly
 
 let question1 = triviaQuestion(
-    question: "How old is Sunday?",
-    option1: "6 month",
-    option2: "1",
-    option3: "2",
-    option4: "3",
-    correctAnswer: "3")
+    question: "What does the carat of a diamond refer to?",
+    option1: "size",
+    option2: "weight",
+    option3: "color",
+    option4: "clarity",
+    correctAnswer: "weight")
 
 let question2 = triviaQuestion(
-    question: "Where did I get Sunday?",
-    option1: "Penn",
-    option2: "NY",
-    option3: "Paris",
-    option4: "LA",
-    correctAnswer: "Penn")
+    question: "What is the ideal diamond color?",
+    option1: "yellow",
+    option2: "white",
+    option3: "clear",
+    option4: nil,
+    correctAnswer: "clear")
 
 let question3 = triviaQuestion(
-    question: "What is my dog's name?",
-    option1: "Waffle",
-    option2: "Ginger",
-    option3: "Sunday",
-    option4: "Ghost",
-    correctAnswer: "Sunday")
+    question: "Which metal is the most precious?",
+    option1: "Platinum",
+    option2: "Silver",
+    option3: "10k Gold",
+    option4: "14k Gold",
+    correctAnswer: "Platinum")
 
 let question4 = triviaQuestion(
-    question: "Where does Sunday go to the park?",
-    option1: "Tompkins Park",
-    option2: "McCarren Park",
-    option3: "Central Park",
-    option4: "",
-    correctAnswer: "Central Park"
+    question: "What is a popular diamond alternative?",
+    option1: "Cubic Zirconia",
+    option2: "Swarosvky crystals",
+    option3: "Rhinestones",
+    option4: nil,
+    correctAnswer: "Cubic Zirconia"
 )
 
 let question5 = triviaQuestion(
-    question: "Who gives treats to Sunday?",
-    option1: "Joy",
-    option2: "Alix",
-    option3: "Eric",
-    option4: "",
-    correctAnswer: "Alix")
+    question: "What is the symbolism behind a 3 stone engagement ring?",
+    option1: "bride, groom, future children",
+    option2: "past, present, future",
+    option3: "nothing",
+    option4: nil,
+    correctAnswer: "past, present, future")
+
+let question6 = triviaQuestion(
+    question: "What is the classic engagement ring style you can't go wrong with?",
+    option1: "cushion cut on rose gold",
+    option2: "simple gold band",
+    option3: "round solitaire on a gold band",
+    option4: "oval diamond with princess cut side stones",
+    correctAnswer: "round solitaire on a gold band"
+)
 
 
 
